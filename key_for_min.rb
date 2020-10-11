@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 
   name_hash.each do |key, value|
-    if value < lowest or lowest == nil
+    if value < lowest or lowest == undefined
       lowest = value
     end
   end
